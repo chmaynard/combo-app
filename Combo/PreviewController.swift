@@ -3,7 +3,7 @@
 //  Combo
 //
 //  Created by Craig H Maynard on 23 November 2017.
-//  Copyright © 2017 Craig H Maynard. All rights reserved.
+//  Copyright (c) 2017 Craig H Maynard. All rights reserved.
 //
 
 import UIKit

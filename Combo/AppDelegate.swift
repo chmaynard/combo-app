@@ -3,7 +3,7 @@
 //  Combo
 //
 //  Created by Craig H Maynard on 22 November 2017.
-//  Copyright © 2017 Craig H Maynard. All rights reserved.
+//  Copyright (c) 2017 Craig H Maynard. All rights reserved.
 //
 
 import UIKit
@@ -13,7 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
         // We're not using a storyboard, so we need to initialize the UI manually.
         window = UIWindow(frame: UIScreen.main.bounds)

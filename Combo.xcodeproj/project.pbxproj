@@ -19,7 +19,7 @@
 		4471AB5C1FCCD11A00953BDF /* PreviewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4471AB5A1FCCBC2F00953BDF /* PreviewItem.swift */; };
 		4471AB5E1FCD82A500953BDF /* PreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4471AB5D1FCD82A500953BDF /* PreviewController.swift */; };
 		4471AB631FCEC08F00953BDF /* ComboCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4471AB621FCEC08F00953BDF /* ComboCard.swift */; };
-		4471AB641FCEC61C00953BDF /* ComboViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4471AB601FCE0B7400953BDF /* ComboViewCell.swift */; };
+		447CDF662343E8D800A589DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 447CDF652343E8D800A589DC /* LaunchScreen.storyboard */; };
 		4497EC751A33BCA40056382A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4497EC741A33BCA40056382A /* Images.xcassets */; };
 		44A408BB1C9771E900295BAA /* about-combo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 44A408BA1C9771E900295BAA /* about-combo.pdf */; };
 		44C233DE1853C8A7004544D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44C233DD1853C8A7004544D2 /* Foundation.framework */; };
@@ -66,6 +66,7 @@
 		4471AB5D1FCD82A500953BDF /* PreviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewController.swift; sourceTree = "<group>"; };
 		4471AB601FCE0B7400953BDF /* ComboViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComboViewCell.swift; sourceTree = "<group>"; };
 		4471AB621FCEC08F00953BDF /* ComboCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComboCard.swift; sourceTree = "<group>"; };
+		447CDF652343E8D800A589DC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4497EC741A33BCA40056382A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		44A408BA1C9771E900295BAA /* about-combo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "about-combo.pdf"; sourceTree = "<group>"; };
 		44C233DA1853C8A7004544D2 /* Combo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Combo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +102,7 @@
 				441A410C1872ED100023EC28 /* ComboViewController.h */,
 				441A410D1872ED100023EC28 /* ComboViewController.m */,
 				4421882B1FC62DFE00A03DBE /* ComboViewController.swift */,
+				447151B421C4504500BA06E2 /* Combo-Swift.h */,
 				4471AB5D1FCD82A500953BDF /* PreviewController.swift */,
 				4471AB5A1FCCBC2F00953BDF /* PreviewItem.swift */,
 				4497EC741A33BCA40056382A /* Images.xcassets */,
@@ -127,11 +129,11 @@
 		441A41101872ED100023EC28 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				447151B421C4504500BA06E2 /* Combo-Swift.h */,
 				44A408BA1C9771E900295BAA /* about-combo.pdf */,
 				441A41131872ED100023EC28 /* Combo-Info.plist */,
 				441A41141872ED100023EC28 /* Combo-Prefix.pch */,
 				441A40FC1872ED100023EC28 /* InfoPlist.strings */,
+				447CDF652343E8D800A589DC /* LaunchScreen.storyboard */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -195,19 +197,19 @@
 		44C233D21853C8A7004544D2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Craig Maynard";
 				TargetAttributes = {
 					44C233D91853C8A7004544D2 = {
 						DevelopmentTeam = GH96T8DXG2;
-						LastSwiftMigration = 0910;
-						ProvisioningStyle = Automatic;
+						LastSwiftMigration = 1100;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
 			buildConfigurationList = 44C233D51853C8A7004544D2 /* Build configuration list for PBXProject "Combo" */;
 			compatibilityVersion = "Xcode 8.0";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -230,6 +232,7 @@
 			files = (
 				4497EC751A33BCA40056382A /* Images.xcassets in Resources */,
 				441A411B1872ED100023EC28 /* InfoPlist.strings in Resources */,
+				447CDF662343E8D800A589DC /* LaunchScreen.storyboard in Resources */,
 				44A408BB1C9771E900295BAA /* about-combo.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +268,6 @@
 				441A41201872ED100023EC28 /* ComboDeck.m in Sources */,
 				4471AB5C1FCCD11A00953BDF /* PreviewItem.swift in Sources */,
 				4421882C1FC62DFE00A03DBE /* AppDelegate.swift in Sources */,
-				4471AB641FCEC61C00953BDF /* ComboViewCell.swift in Sources */,
 				4471AB5E1FCD82A500953BDF /* PreviewController.swift in Sources */,
 				441A411F1872ED100023EC28 /* ComboCard.m in Sources */,
 			);
@@ -291,6 +293,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -314,10 +317,10 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = GH96T8DXG2;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -349,6 +352,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -372,10 +376,10 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = YES;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = GH96T8DXG2;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -402,21 +406,23 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = GH96T8DXG2;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Combo/Supporting Files/Combo-Prefix.pch";
 				INFOPLIST_FILE = "Combo/Supporting Files/Combo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.chmaynard.$(PRODUCT_NAME:rfc1034identifier)";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.corememory.Combo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -424,8 +430,8 @@
 				STRIP_INSTALLED_PRODUCT = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Combo/Combo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -436,29 +442,31 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = GH96T8DXG2;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Combo/Supporting Files/Combo-Prefix.pch";
 				INFOPLIST_FILE = "Combo/Supporting Files/Combo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.chmaynard.$(PRODUCT_NAME:rfc1034identifier)";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.corememory.Combo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;
 				STRIP_INSTALLED_PRODUCT = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Combo/Combo-Bridging-Header.h";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -3,7 +3,7 @@
 //  Combo
 //
 //  Created by Craig H Maynard on 11/24/13.
-//  Copyright © 2016 Craig H Maynard. All rights reserved.
+//  Copyright (c) 2016 Craig H Maynard. All rights reserved.
 //
 
 #import "ComboCard.h"
