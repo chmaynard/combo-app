@@ -1,0 +1,14 @@
+var sizes = [29, 40, 57, 60, 72, 76, 167, 1024];
+
+var acorn = JSTalk.application("Acorn");
+var path = "/Users/craig/Projects/Combo Assets/"
+var doc = acorn.open(path + "icon.acorn");
+
+for (idx = 0; idx < sizes.length; idx++) {
+    doc.flattenImage(nil);
+    doc.scaleImageToWidth(sizes[idx]);
+    doc.dataRepresentationOfType("public.png").writeToFile(path + "icon-" + sizes[idx] + ".png");
+    doc.undo();
+}
+
+doc.close();
